@@ -1,1 +1,0 @@
-{"componentChunkName":"component---src-components-templates-single-index-tsx","path":"/single24","webpackCompilationHash":"5b50badb63aacc4cce9c","result":{"errors":[{"message":"Variable \"$number\" got invalid value undefined; Expected non-nullable type String! not to be null.","locations":[{"line":2,"column":3}]}],"pageContext":{"isCreatedByStatefulCreatePages":false}}}
