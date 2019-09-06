@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{265:function(e,n,t){"use strict";t.r(n);var a=t(0),c=t(103),l=t(132),o=(t(254),t(9)),r=t(16);n.default=function(){return a.createElement(l.a,null,a.createElement("h1",null,"Top Page"),a.createElement(c.a,{to:Object(r.b)(o.e.Singles)},"CDs"))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-a4321c84f236cbd70973.js.map
