@@ -30,7 +30,7 @@ self.__precacheManifest = [
     "url": "webpack-runtime-31f892fa44e04801fc6b.js"
   },
   {
-    "url": "styles.abc7e45e3d46f5cfda2a.css"
+    "url": "styles.effe205baadd9e79cc57.css"
   },
   {
     "url": "styles-d0b1730791cc7c85703e.js"
@@ -39,18 +39,18 @@ self.__precacheManifest = [
     "url": "commons-a388cf216e9aa37be31e.js"
   },
   {
-    "url": "app-eeeb6dadfc465fd7d45c.js"
+    "url": "app-50e9a908979e6e1c0607.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-572321b47c1bc04eb8ce.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "b784dc5976562571b93128caf42f7106"
+    "revision": "a0f1c9c48f6e5f722d51b398c57a4397"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "d6b12d4c633d9d0fb53345313a9f9df1"
+    "revision": "aa1988557b3eeb3c2abbb8633ff957d1"
   },
   {
     "url": "manifest.webmanifest",
@@ -82,7 +82,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/nogizaka-lib-redesign/app-eeeb6dadfc465fd7d45c.js`))) {
+  if (!resources || !(await caches.match(`/nogizaka-lib-redesign/app-50e9a908979e6e1c0607.js`))) {
     return await fetch(event.request)
   }
 
