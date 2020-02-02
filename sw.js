@@ -30,7 +30,7 @@ self.__precacheManifest = [
     "url": "webpack-runtime-c1ddc4cc2681deab543a.js"
   },
   {
-    "url": "styles.0bfbc53e3f62f7eabc08.css"
+    "url": "styles.353647edb8db0af8c0dc.css"
   },
   {
     "url": "styles-47751dd6f50af4a71d70.js"
@@ -39,14 +39,14 @@ self.__precacheManifest = [
     "url": "commons-9999cc2d5ffe2adee437.js"
   },
   {
-    "url": "app-d182ea44c02abc129f55.js"
+    "url": "app-4b33845d97e2ae6f0a84.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-c642ff4ce05b1045d083.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "834041659b8d4839481a414df77e9842"
+    "revision": "71760073d4afbd30c6852a740baeacc0"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -147,7 +147,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/nogizaka-lib-redesign/app-d182ea44c02abc129f55.js`))) {
+  if (!resources || !(await caches.match(`/nogizaka-lib-redesign/app-4b33845d97e2ae6f0a84.js`))) {
     return await fetch(event.request)
   }
 
